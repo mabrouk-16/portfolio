@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mabrouk Portfolio</title>
+    <link rel="icon" href="./asessts/logo.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./asessts/style.css" />
+    <link rel="stylesheet" href="./asessts/form.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+      .swiper {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .swiper-slide {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      /* .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      } */
+
+      .swiper-v {
+        background: #eee;
+      }
+      .swiper-pagination-bullet {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color: #000;
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.2);
+      }
+
+      .swiper-pagination-bullet-active {
+        color: #fff;
+        /* background: #007aff; */
+        background-color: white;
+        box-shadow: white 0 0 5px 0px;
+      }
+      .inner {
+        width: 350px;
+        height: 400px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="swiper mySwiper">
+      <!-- vertical Slide wrapper -->
+      <div class="swiper-wrapper">
+        <!---------------------------- Home ---------------------------->
+        <div class="swiper-slide home animated-backgroud">
+          <img
+            src="./asessts/mabrouk-high-resolution-logo-white-transparent.png"
+            style="
+              position: absolute;
+              top: 25px;
+              left: 75px;
+              width: 150px;
+              height: 150px;
+            "
+            alt=""
+          />
+          <div class="typo">
+            <h1 class="welcome">Welcome to My Portfolio</h1>
+            <h2 class="name">I'm Mahmoud Mabrouk</h2>
+            <div class="role">
+              <h1>
+                F u l l <span> </span> S t a c k <span> </span> D e v e l o p e
+                r <span> </span> M E A R N
+              </h1>
+            </div>
+          </div>
+          <div class="p-image">
+            <div class="img-contain">
+              <img src="/asessts/removebg-preview.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!---------------------------- education ------------------------>
+        <div class="swiper-slide education animated-backgroud">
+          <h1 class="title">Education & Experience</h1>
+          <!---------------------------- experience ------------------------>
+          <div class="juorny">
+            <div class="item">
+              <div class="info">
+                <div class="head">student @ Kafer El-Seikh Universty</div>
+                <div class="date">Oct 2018 - Jul 2023</div>
+              </div>
+              <div class="graph">
+                <div class="line"><div class="dot"></div></div>
+
+                <!-- <div class="line"></div> -->
+              </div>
+            </div>
+            <div class="item">
+              <!-- none -->
+              <div class="info" style="opacity: 0">
+                <div class="head">Full Stack Developer Trainee @ ITI</div>
+                <div class="date">Nov 2023 - Apr 2024</div>
+              </div>
+              <div class="graph">
+                <div class="line"><div class="dot"></div></div>
+              </div>
+              <div class="info">
+                <div class="head">Full Stack Developer Trainee @ ITI</div>
+                <div class="date">Nov 2023 - Apr 2024</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="info">
+                <div class="head">Software Developer @ Vultara Inc</div>
+                <div class="date">May 2024 - Jun 2024</div>
+              </div>
+              <div class="graph">
+                <div class="line"><div class="dot"></div></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="info" style="opacity: 0">
+                <div class="head">Freelance and the Juorny continous</div>
+                <div class="date">Present</div>
+              </div>
+              <div class="graph">
+                <div class="line"><div class="dot"></div></div>
+              </div>
+              <div class="info">
+                <div class="head">Freelance and the Juorny continous</div>
+                <div class="date">Present</div>
+              </div>
+            </div>
+          </div>
+          <!---------------------------- skills ------------------------>
+          <h1 class="title">Skills</h1>
+          <div class="skills">
+            <div class="icons">
+              <img src="./asessts/icons/html.svg" alt="html" title="html" />
+              <img src="./asessts/icons/css.svg" alt="css" title="css" />
+              <img src="./asessts/icons/sass.svg" alt="sass" title="sass" />
+              <img src="./asessts/icons/js-official.svg" alt="js" title="js" />
+              <img
+                src="./asessts/icons/typescript-official.svg"
+                alt="typescript"
+                title="typescript"
+              />
+              <img
+                src="./asessts/icons/angular.svg"
+                alt="angular"
+                title="angular"
+              />
+              <img src="./asessts/icons/rxjs.svg" alt="rxjs" title="rxjs" />
+              <img src="./asessts/icons/react.svg" alt="react" title="react" />
+              <img
+                src="./asessts/icons/redux-original.svg"
+                alt="redux"
+                title="redux"
+              />
+              <img
+                src="./asessts/icons/nodejs.svg"
+                alt="nodejs"
+                title="nodejs"
+              />
+              <img
+                src="./asessts/icons/file-type-mongo.svg"
+                alt="mongo db"
+                title="mongo db"
+              />
+              <img src="./asessts/icons/git.svg" alt="git" title="git" />
+            </div>
+          </div>
+        </div>
+
+        <!------------------  swiper-Horizontal  Projects -------------------->
+        <div class="swiper-slide projects animated-backgroud">
+          <div class="swiper mySwiper2">
+            <h1 class="title" style="margin: auto">Projects</h1>
+            <div class="swiper-wrapper items">
+              <div class="swiper-slide project">
+                <div class="thumbnail">
+                  <img src="" alt="" />
+                </div>
+                <h2 class="project-name">Expesess App</h2>
+                <p class="project-desc">description</p>
+                <p class="project-date">April 2023</p>
+                <div class="code"><button>Preview</button></div>
+              </div>
+              <div class="swiper-slide project">Slide 2</div>
+              <div class="swiper-slide project">Slide 3</div>
+              <div class="swiper-slide project">Slide 4</div>
+              <div class="swiper-slide project">Slide 5</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!------------------    Contact -------------------->
+
+        <div class="swiper-slide contact animated-backgroud">
+          <h1 class="title">Contact Me</h1>
+          <div class="form">
+            <form>
+              <input
+                name="name"
+                type="text"
+                class="feedback-input"
+                placeholder="Name"
+              />
+              <input
+                name="email"
+                type="email"
+                class="feedback-input"
+                placeholder="Email"
+              />
+              <textarea
+                name="text"
+                class="feedback-input"
+                placeholder="Comment"
+              ></textarea>
+              <input type="submit" value="SUBMIT" />
+            </form>
+          </div>
+          <h1 class="title">Social</h1>
+          <div class="social">
+            <div class="icons">
+              <a
+                href="https://www.facebook.com/profile.php?id=100006508292292&mibextid=ZbWKwL"
+                target="_blank"
+                ><img
+                  src="asessts/icons/facebook.svg"
+                  alt="facebook"
+                  title="facebook"
+              /></a>
+              <a href="https://x.com/i_jamaika?s=08" target="_blank"
+                ><img
+                  src="asessts/icons/twitter.svg"
+                  alt="twitter"
+                  title="twitter"
+              /></a>
+              <a href="https://wa.me/201279970553" target="_blank"
+                ><img
+                  src="asessts/icons/whatsapp.svg"
+                  alt="whatsapp"
+                  title="whatsapp"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/mahmoud-mabrouk-9b884b286"
+                target="_blank"
+                ><img
+                  src="asessts/icons/linkedin-original.svg"
+                  alt="linkedin"
+                  title="linkedin"
+              /></a>
+              <a href="mailto:mahmoudmabrouk1016@gmail.com" target="_blank"
+                ><img src="asessts/icons/gmail.svg" alt="gmail" title="gmail"
+              /></a>
+              <a href="mailto:mahmoudmabrouk16@outlook.com" target="_blank"
+                ><img
+                  src="asessts/icons/outlook.svg"
+                  alt="outlook"
+                  title="outlook"
+              /></a>
+              <a href="https://github.com/mabrouk-16" target="_blank"
+                ><img
+                  src="asessts/icons/github-square.svg"
+                  alt="github"
+                  title="github"
+              /></a>
+
+              <a href="" target="_blank"
+                ><img
+                  src="asessts/icons/discord.svg"
+                  alt="discord"
+                  title="discord"
+              /></a>
+              <a
+                href="https://www.instagram.com/jamaika_101?igsh=MWp6YWFqb3FxbndibQ=="
+                target="_blank"
+                ><img
+                  src="asessts/icons/instagram.svg"
+                  alt="instagram"
+                  title="instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        // spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        mousewheel: {
+          enabled: true,
+        },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        // direction: "vertical",
+        slidesPerView: 3,
+        spaceBetween: 20,
+        freeMode: true,
+        effect: "coverflow",
+        centeredSlides: true,
+        loop: true,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        freemode: true,
+      });
+    </script>
+  </body>
+</html>
